@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Green-Pharmacy</title>
+  <title>Green-Pharmacy 🌱</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Green-Pharmacy</h1>
-  <p>Green web app for managing expired medications.</p>
 
-  <script src="script.js"></script>
+<body>
+
+<header>
+  <h1>Green-Pharmacy 🌱💊</h1>
+  <p>إدارة ذكية للأدوية ببيانات صحية وبيئية حقيقية</p>
+</header>
+
+<main>
+
+  <section class="work">
+    <h2>إدارة الأدوية</h2>
+
+    <form id="medForm">
+      <label>اختر الدواء</label>
+      <select id="medSelect" required>
+        <option value="">-- اختر دواء --</option>
+      </select>
+
+      <label>تاريخ الإنتاج</label>
+      <input type="date" id="productionDate" required>
+
+      <button type="submit">تحليل الدواء</button>
+    </form>
+
+    <ul id="medList"></ul>
+  </section>
+
+  <section class="about">
+    <h2>عن المشروع</h2>
+    <p>
+      Green-Pharmacy منصة ويب خضراء تعتمد على قاعدة بيانات أدوية حقيقية
+      لحساب صلاحية الدواء تلقائيًا، عرض الجرعة الصحية،
+      وتوجيه المستخدم إلى طرق التخلص البيئي الآمن،
+      مما يقلل المخاطر الصحية والهدر الدوائي.
+    </p>
+  </section>
+
+</main>
+
+<script src="medications.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
