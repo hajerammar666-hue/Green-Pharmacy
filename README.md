@@ -1,2 +1,16 @@
 # Green-Pharmacy
-A smart web application that helps manage medications, prevent expiration, and dispose of them in an environmentally friendly way, in addition to understanding the impact of medication misuse on immunity (educational only, not diagnostic) Because wasting medications harms not only the environment but also the body.
+
+## Problem
+Improper disposal and misuse of medications cause environmental pollution and health risks.
+
+## Solution
+Green-Pharmacy is a green web platform that helps users manage medication expiration dates and raises awareness about the impact of improper drug use on immune health.
+
+## Features
+- Medication expiration tracking
+- Safe eco-friendly disposal guidelines
+- Immune health awareness (non-diagnostic)
+
+## Tech Stack
+- Frontend: React
+- Backend: Firebase
