@@ -3,40 +3,72 @@ const medicationsDB = [
     id: 1,
     name: "Paracetamol",
     category: "مسكن ألم",
-    shelfLifeMonths: 36,
-    dosage: "500–1000 ملغ كل 6–8 ساعات (حد أقصى 4 غرام/يوم)",
-    warnings: "خطر على الكبد عند الجرعات العالية",
+    shelfLifeMonths: 24,
+    standardDose: "500-1000mg كل 6-8 ساعات (حد أقصى 4000mg يومياً)",
     ecoImpact: "منخفض",
-    disposal: "لا يُرمى في المرحاض أو المجاري. يُسلّم للصيدلية أو يُخلط مع نفايات غير مستساغة."
+    disposal: "عدم رميه في المرحاض، يُفضّل إعادته للصيدلية"
   },
   {
     id: 2,
     name: "Ibuprofen",
-    category: "مضاد التهاب غير ستيرويدي",
-    shelfLifeMonths: 24,
-    dosage: "200–400 ملغ كل 6–8 ساعات بعد الطعام",
-    warnings: "قد يسبب تهيج المعدة أو مشاكل كلوية",
+    category: "مضاد التهاب",
+    shelfLifeMonths: 36,
+    standardDose: "200-400mg كل 6-8 ساعات بعد الطعام",
     ecoImpact: "متوسط",
-    disposal: "يُعاد إلى الصيدلية أو مركز جمع الأدوية المنتهية."
+    disposal: "إرجاعه لمركز تجميع الأدوية"
   },
   {
     id: 3,
     name: "Amoxicillin",
     category: "مضاد حيوي",
     shelfLifeMonths: 24,
-    dosage: "حسب وصف الطبيب فقط",
-    warnings: "عدم إيقاف الدواء قبل إكمال الجرعة",
+    standardDose: "500mg كل 8 ساعات حسب وصف الطبيب",
     ecoImpact: "عالي",
-    disposal: "ممنوع رميه بالنفايات المنزلية. يُسلّم للصيدلية لتجنب مقاومة البكتيريا."
+    disposal: "لا يُرمى في المجاري، يُسلّم للصيدلية"
   },
   {
     id: 4,
     name: "Vitamin D",
     category: "مكمل غذائي",
-    shelfLifeMonths: 36,
-    dosage: "1000–2000 وحدة دولية يوميًا",
-    warnings: "الجرعات العالية قد تسبب تسمم",
+    shelfLifeMonths: 24,
+    standardDose: "1000-2000 IU يومياً",
     ecoImpact: "منخفض",
-    disposal: "إغلاق العبوة جيدًا قبل الرمي أو إعادة التدوير إن أمكن."
+    disposal: "إغلاقه بإحكام قبل الرمي"
+  },
+  {
+    id: 5,
+    name: "Aspirin",
+    category: "مسكن / مميع دم",
+    shelfLifeMonths: 36,
+    standardDose: "75-325mg يومياً حسب الحالة",
+    ecoImpact: "متوسط",
+    disposal: "إرجاعه للصيدلية"
+  },
+  {
+    id: 6,
+    name: "Metformin",
+    category: "سكري",
+    shelfLifeMonths: 36,
+    standardDose: "500-1000mg مرتين يومياً",
+    ecoImpact: "متوسط",
+    disposal: "تسليم للصيدلية"
+  },
+  {
+    id: 7,
+    name: "Omeprazole",
+    category: "حموضة",
+    shelfLifeMonths: 24,
+    standardDose: "20mg يومياً قبل الأكل",
+    ecoImpact: "منخفض",
+    disposal: "عدم رميه في الماء"
+  },
+  {
+    id: 8,
+    name: "Cetirizine",
+    category: "حساسية",
+    shelfLifeMonths: 36,
+    standardDose: "10mg يومياً",
+    ecoImpact: "منخفض",
+    disposal: "إرجاعه لمركز تجميع"
   }
 ];
